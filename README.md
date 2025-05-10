@@ -13,9 +13,8 @@ This structured, modular pipeline bridges data generation and storage efficientl
 ---
 
 ## 🏗️ System Architecture
-
-![Architecture Diagram](path_to_your_architecture_image.png)
-<!-- Replace with your architecture image file or GDrive link -->
+![Alt text](![ChatGPT Image May 10, 2025, 03_25_19 PM](https://github.com/user-attachments/assets/ebeb8768-2883-45cf-bc54-ef4d76746b77)
+)
 
 ### Components:
 - **Apache Kafka** on GCP VM: Handles streaming of stock data.
@@ -23,6 +22,8 @@ This structured, modular pipeline bridges data generation and storage efficientl
 - **Consumer Script (Python)**: Consumes stock data and pushes it to Google Cloud Storage (GCS).
 - **Google Cloud Storage Bucket**: Stores the structured data in `.json` format for further analysis or dashboarding.
 - **Jupyter Notebook**: Used for data preprocessing and testing pipeline logic.
+![ChatGPT Image May 10, 2025, 03_25_19 PM](https://github.com/user-attachments/assets/bff1f17a-72fa-4fd5-8174-14cb9641708d)
+![ChatGPT Image May 10, 2025, 03_25_19 PM](https://github.com/user-attachments/assets/d917f655-b319-4d81-a7b5-e62638f69181)
 
 ---
 
