@@ -2,7 +2,11 @@
 
 ## 🚀 Project Overview
 
-This project demonstrates a **real-time stock analytics pipeline** using **Apache Kafka**, **Google Cloud Platform (GCP)**, and **Python**. It ingests, processes, and stores live stock data using a producer-consumer model — designed for high-performance and scalability.
+This project implements a real-time data pipeline that simulates a stock market feed using Apache Kafka and Google Cloud Platform. At its core, the system reads a CSV file containing stock data and streams it into a Kafka topic using a Kafka Producer written in Python. The Kafka Consumer, also built in Python, listens to this topic and pushes each record into a Google Cloud Storage (GCS) bucket in .json format.
+
+This architecture mimics real-time stock data ingestion — as prices change, the system captures and stores every tick. The use of Kafka’s distributed messaging system makes the pipeline highly scalable and fault-tolerant. The cloud bucket acts as a persistent, cost-effective storage solution that can be used for analytics, dashboarding, or feeding downstream systems.
+
+This structured, modular pipeline bridges data generation and storage efficiently, showcasing how Kafka can be paired with GCP to power real-time analytics pipelines for stock data.
 
 > 📍 CSV files are initially loaded in a Jupyter Notebook, and then sent through Kafka topics using custom **producers and consumers**.
 
@@ -50,18 +54,17 @@ This project demonstrates a **real-time stock analytics pipeline** using **Apach
 - **Integration with BigQuery & AI**: Easy to plug in analytics or ML models.
 - **Data Lake Foundation**: Ideal for setting up a stock analytics platform with dashboards and queries.
 - **Safe Decoupling**: GCS decouples storage from processing, ensuring that consumers don’t need to be always live.
+  
+---
+##  Challenges Faced
+- Kafka not recognizing brokers (NoBrokersAvailable).
+- GCP IAM permission configurations.
+- Bucket access and role management.
+- Authentication with gcloud auth login & CLI.
+- Kafka setup and port management on VM.
 
 ---
-
-##  Screenshots / Output Samples
-
-###  Kafka Streaming Output:
-![Streaming Logs](path_to_streaming_screenshot.png)
-
-###  Files in GCP Bucket:
-![GCP Bucket Structure](path_to_gcp_bucket_screenshot.png)
-
----
+##  Output:
 
 ##  Next Steps
 
