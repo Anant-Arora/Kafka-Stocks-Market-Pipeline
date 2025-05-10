@@ -17,7 +17,7 @@ This structured, modular pipeline bridges data generation and storage efficientl
 
 ---
 
-VM Instance 
+## VM Instance 
 ![VM Instance](https://github.com/user-attachments/assets/a21ade01-8698-472a-af37-6265635e5f59)
 
 ---
@@ -84,7 +84,6 @@ VM Instance
 - Kafka setup and port management on VM.
 
 ---
-##  Output:
 
 ##  Next Steps
 
@@ -102,7 +101,10 @@ Pull requests welcome! For major changes, please open an issue first to discuss 
 
 ##  Final Thoughts
 
-This project demonstrates how modern data engineering tools can be applied to build fast, scalable, and cloud-native stock monitoring systems.
+This project showcases a real-time data pipeline using Kafka and GCP for stock market analytics.
+It highlights the role of cloud storage in scalable data solutions.
+The integration of producers and consumers mirrors real-world trading systems.
+This is a strong step toward mastering real-time financial data engineering.
 
 ---
 
