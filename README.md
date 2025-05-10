@@ -1,6 +1,6 @@
 # 📈 Real-Time Stock Tracking using Kafka and GCP
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project implements a real-time data pipeline that simulates a stock market feed using Apache Kafka and Google Cloud Platform. At its core, the system reads a CSV file containing stock data and streams it into a Kafka topic using a Kafka Producer written in Python. The Kafka Consumer, also built in Python, listens to this topic and pushes each record into a Google Cloud Storage (GCS) bucket in .json format.
 
@@ -12,9 +12,28 @@ This structured, modular pipeline bridges data generation and storage efficientl
 
 ---
 
-## 🏗️ System Architecture
-(![ChatGPT Image May 10, 2025, 03_25_19 PM](https://github.com/user-attachments/assets/ebeb8768-2883-45cf-bc54-ef4d76746b77)
-)
+## System Architecture
+![ChatGPT Image May 10, 2025, 03_25_19 PM](https://github.com/user-attachments/assets/ebeb8768-2883-45cf-bc54-ef4d76746b77)
+
+---
+
+VM Instance 
+![VM Instance](https://github.com/user-attachments/assets/a21ade01-8698-472a-af37-6265635e5f59)
+
+---
+
+## Producer
+![Producer Image](https://github.com/user-attachments/assets/3785f999-3b18-47a2-8db8-0e3d5f0dc771)
+
+---
+
+## Consumer
+![Consumer Image](https://github.com/user-attachments/assets/1465f31d-f433-44c2-bb13-82518b63c18e)
+
+---
+![File Image](https://github.com/user-attachments/assets/4bcdc68f-3a6e-4f12-bcee-2bcb71391cca)
+
+
 
 ### Components:
 - **Apache Kafka** on GCP VM: Handles streaming of stock data.
