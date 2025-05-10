@@ -13,7 +13,7 @@ This structured, modular pipeline bridges data generation and storage efficientl
 ---
 
 ## 🏗️ System Architecture
-![Alt text](![ChatGPT Image May 10, 2025, 03_25_19 PM](https://github.com/user-attachments/assets/ebeb8768-2883-45cf-bc54-ef4d76746b77)
+(![ChatGPT Image May 10, 2025, 03_25_19 PM](https://github.com/user-attachments/assets/ebeb8768-2883-45cf-bc54-ef4d76746b77)
 )
 
 ### Components:
