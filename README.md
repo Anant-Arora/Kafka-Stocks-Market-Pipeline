@@ -1,4 +1,4 @@
-# 📈 Real-Time Stock Tracking using Kafka and GCP
+# Real-Time Stock Tracking using Kafka and GCP
 
 ##  Project Overview
 
@@ -8,7 +8,6 @@ This architecture mimics real-time stock data ingestion — as prices change, th
 
 This structured, modular pipeline bridges data generation and storage efficiently, showcasing how Kafka can be paired with GCP to power real-time analytics pipelines for stock data.
 
-> 📍 CSV files are initially loaded in a Jupyter Notebook, and then sent through Kafka topics using custom **producers and consumers**.
 
 ---
 
@@ -44,7 +43,7 @@ This structured, modular pipeline bridges data generation and storage efficientl
 
 ---
 
-## 🔧 Tech Stack Used
+##  Tech Stack Used
 
 | Component         | Tool/Service                    |
 |------------------|---------------------------------|
@@ -59,10 +58,10 @@ This structured, modular pipeline bridges data generation and storage efficientl
 
 ##  How It Works
 
-1. ✅ Load CSV in **Jupyter Notebook**.
-2. ✅ Start **Producer** script to read the CSV and stream records to Kafka.
-3. ✅ Kafka runs on a **GCP VM (Kafkastocks)** instance and hosts the broker and topic (`demo_test`).
-4. ✅ The **Consumer** reads from the Kafka topic and writes each record into a **Google Cloud Storage bucket** (`kafka_stocks_bucket`) as a `.json` file.
+1.  Load CSV in **Jupyter Notebook**.
+2.  Start **Producer** script to read the CSV and stream records to Kafka.
+3.  Kafka runs on a **GCP VM (Kafkastocks)** instance and hosts the broker and topic (`demo_test`).
+4.  The **Consumer** reads from the Kafka topic and writes each record into a **Google Cloud Storage bucket** (`kafka_stocks_bucket`) as a `.json` file.
 
 ---
 
